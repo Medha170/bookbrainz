@@ -80,11 +80,6 @@ function Footer(props) {
 						</div>
 					</Col>
 				</Row>
-				{/* <Row>
-					<Col className="text-center" xs={12}>
-						
-					</Col>
-				</Row> */}
 			</Container>
 		</footer>
 	);
