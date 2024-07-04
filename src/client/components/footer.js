@@ -57,6 +57,15 @@ function Footer(props) {
 								CC-BY-2.0
 							</a>)
 						</small>
+						<small>
+							Alpha Software —{' '}
+							<a href={`${repositoryUrl}tree/${siteRevision || 'master'}`}>
+								{siteRevision || 'unknown revision'}
+							</a> —&nbsp;
+							<a href="https://tickets.metabrainz.org/projects/BB/issues/">
+								Report a Bug
+							</a>
+						</small>
 					</Col>
 					<Col className="text-right" xs={4}>
 						<div className="small">
@@ -71,19 +80,11 @@ function Footer(props) {
 						</div>
 					</Col>
 				</Row>
-				<Row>
+				{/* <Row>
 					<Col className="text-center" xs={12}>
-						<small>
-							Alpha Software —{' '}
-							<a href={`${repositoryUrl}tree/${siteRevision || 'master'}`}>
-								{siteRevision || 'unknown revision'}
-							</a> —&nbsp;
-							<a href="https://tickets.metabrainz.org/projects/BB/issues/">
-								Report a Bug
-							</a>
-						</small>
+						
 					</Col>
-				</Row>
+				</Row> */}
 			</Container>
 		</footer>
 	);

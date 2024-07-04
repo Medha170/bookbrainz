@@ -893,3 +893,14 @@ div[class~=collapsing]+div[class=card-header] .accordion-arrow {
 .rouge :hover {
 	color : #963873;
 }
+
+.small {
+	margin : 20px;
+}
+
+.text-center{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
